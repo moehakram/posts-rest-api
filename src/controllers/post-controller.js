@@ -69,7 +69,7 @@ export async function createPost(req, res) {
 
         post = await postRepository.save({
             id: Date.now(),
-            image,
+            image: image ?? `/posts/${image}`,
             title,
             slug: slugify(title),
             content,
@@ -145,7 +145,7 @@ export async function deletedPost(req, res, id) {
             return;
         }
 
-        await postRepository.drop(id);
+        await postRepository.remove(id);
         res.statusCode = 200;
         res.end(JSON.stringify({ data: `Post '${id}' deleted` }));
     } catch (error) {

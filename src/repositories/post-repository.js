@@ -1,7 +1,6 @@
 import { readFile, writeFile } from "fs/promises";
-import { resolve } from "path";
 
-const file = new URL('../data.json', import.meta.url);
+const file = new URL('../data/posts.json', import.meta.url);
 const buf = await readFile(file, 'utf-8');
 const posts = JSON.parse(buf);
 
@@ -47,7 +46,7 @@ export function update(post) {
     })
 }
 
-export function drop(id) {
+export function remove(id) {
     // return new Promise(async (resolve, reject) => {
     //     const index = posts.findIndex(p => Number(id) === p.id);
     //     if (index !== -1) {

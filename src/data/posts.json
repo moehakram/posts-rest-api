@@ -1,21 +1,12 @@
 [
   {
-    "id": 71,
-    "image": "posts/qJlqpzBvBugL3nK1hYRypWmMnccmgZoHtCHaJmeg.png",
-    "title": "tes aja",
-    "slug": "tes-aja",
-    "content": "tes contenthhhb",
-    "created_at": "2025-06-23T19:46:08.000Z",
-    "updated_at": "2025-06-27T05:06:55.000Z"
-  },
-  {
     "id": 81,
     "image": "posts/922bpqQfpaKtaBWXYxQQ1HLYg8o78g1qwBZnGjN1.png",
-    "title": "haja",
-    "slug": "haja",
-    "content": "tes content",
+    "title": "you know javascript or nodejs ?",
+    "slug": "you-know-javascript-or-nodejs-",
+    "content": "About is nodejs",
     "created_at": "2025-06-26T19:06:19.000Z",
-    "updated_at": "2025-06-30T18:23:38.000Z"
+    "updated_at": "2025-07-28T12:54:04.491Z"
   },
   {
     "id": 83,
@@ -115,5 +106,14 @@
     "content": "About is nodejs",
     "created_at": "2025-07-28T10:56:22.001Z",
     "updated_at": "2025-07-28T10:56:22.001Z"
+  },
+  {
+    "id": 1753707641655,
+    "image": "/posts/null",
+    "title": "Do you know JavaScript or Node.js?",
+    "slug": "do-you-know-javascript-or-nodejs",
+    "content": "This post is about Node.js",
+    "created_at": "2025-07-28T13:00:41.655Z",
+    "updated_at": "2025-07-28T13:00:41.655Z"
   }
 ]
