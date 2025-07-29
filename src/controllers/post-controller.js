@@ -69,7 +69,7 @@ export async function createPost(req, res) {
 
         post = await postRepository.save({
             id: Date.now(),
-            image: image ?? `/posts/${image}`,
+            image: image ? `/posts/${image}` : null,
             title,
             slug: slugify(title),
             content,
